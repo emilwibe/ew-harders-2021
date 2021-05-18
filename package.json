@@ -1,0 +1,46 @@
+{
+    "name": "ew-harders-2021",
+    "version": "1.0.0",
+    "description": "2021 WordPress theme for harders.nu",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emilwibe/ew-harders-2021.git"
+    },
+    "keywords": [
+        "theme",
+        "wordpress",
+        "theme"
+    ],
+    "author": "Emil Wibe",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/emilwibe/ew-harders-2021/issues"
+    },
+    "homepage": "https://github.com/emilwibe/ew-harders-2021#readme",
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "@babel/register": "^7.7.7",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-download-files": "0.0.3",
+        "gulp-import-css": "^0.1.3",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "vinyl-paths": "^3.0.1"
+    },
+    "babel": {
+        "presets": [
+            "@babel/env"
+        ]
+    }
+}
